@@ -1,0 +1,20 @@
+1.
+	a. Combining selectors are used when the elements are needed to be align or same as the other elements. 
+	   example is classes hd and ssd are needed to be the same as xdd, in css you will call it as .hd,.ssd,.xdd
+	   for them to have the same output in a html.
+	
+	b. Class and ID selectors are used to make it easier for the coder to call an specific element.
+	   Class is used as "." in css while ID is used as "#" in css. ID Selectors can only be apply for
+	   a single element that only appears on the page for once while Class selector can be used to multiple elements.
+
+	c. Pseudo-classes are used in css to make an effect to an element based on their state.
+	   Examples are hover(when the cursor is hovering on the link text it executes a style on the link text), 
+	   visited(when a link text is visited, it will execute a style on the link text) and active (when the link
+	   is being viewed the link text will execute a style). 
+
+2.
+
+	a. HOVER - When the cursor is on the link text it will executes a style
+	b. ACTIVE - When the link is activated and the user is viewing it, the link text will executes a style.
+	c. VISITED - When the link is visited the link text will executes a style.
+	d. LINK - When the link is unvisited the link text will executes a style.

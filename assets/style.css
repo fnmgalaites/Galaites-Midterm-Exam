@@ -1,0 +1,190 @@
+/* The whole canvas */
+.container{
+    max-width: 600px;
+    margin-left: 740px;
+    font-family:sans-serif;  
+}
+/* The color blue top border */
+.topborder{
+    border-top: blue 8px solid;
+    padding-top: 15px;
+}
+/* the page name Python Tutorial */
+#pagename{
+    margin-left: 70px;
+    top: 20px;
+    left: 340px;
+    position: absolute;
+}
+/* the href in the header */
+.hrefhead{
+    margin-right: 20px;
+}
+/* positiong of the href header */
+.hrefheadnav{
+    position:absolute;
+    left: 345px;
+    top: 100px;
+}
+/* the tutorial python picture */
+.pythontutpic{
+    position:absolute;
+    left: 360px;
+    top: 40px;
+    height: 30px;
+    width: 30px;
+}
+/* The color for the h1 and h2 */
+h1,h2{
+    color: #1098ad;
+}
+/* for no dots in li and color */
+a{
+    text-decoration: none;
+    color: #1098ad;
+}
+/* for the main python picture */
+.pythonpic{
+    width: 500px;
+    height: 250px;
+}
+/* for first child bold */
+li:first-child{
+    font-weight: bold;
+}
+/* for last child italic */
+li:last-child{
+    font-style: italic;
+}
+/* for top after h1 */
+h1::after{
+    content: "TOP";
+    background-color: #FDD835;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    margin-left: 250px;
+    top: 70px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+/* for after header or the body */
+.post-header{
+    margin-top: 50px;
+    margin-bottom:40px;
+    clear: both;
+}
+/* for the floating of topics */
+.topics{
+    background-color:#FAFAFA;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #ad3510;
+    padding: 10px 20px;
+    float: right;
+    width: 300px;
+    font-weight: bold;
+    top: 100px;
+    left: 75px;
+}
+/* for after topics */
+.topics::after{
+    content: "HOT";
+    background-color: #FDD835;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 280px;
+}
+/* for floating and postioning of aside */
+aside{
+    width: 390px;
+    float: left;
+    position: absolute;
+    left: 275px;
+    top: 150px;
+}
+/* for the floating of new tutorial */
+.newtut{
+    margin-top: 20px;
+    background-color:#FAFAFA;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    padding:10px 20px;
+    float: right;
+    width: 300px;
+    height: 250px;
+    font-weight: bold;
+    top: 450px;
+    left:100px;
+}
+/* for the size images in new tutorial */
+.imgnewt{
+    height: 50px;
+    width:50px;
+    margin-bottom: 20px;
+    margin-left: -40px;
+}
+/* for the bolding of href of new tutorial */
+.imgnewtref{
+    font-weight: bold;
+}
+/* for the coding in syntax comms variables and datatypes */
+.syntaxp,.commentsp,.variablesp,.datatypesp{
+    background-color: black;
+    border: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+/* for the dots of li to be removed */
+.newtutli,.topicsli{
+    list-style-type: none;
+}
+/* for topics list positioning */
+.topicslist{
+    margin-bottom: 20px;
+    margin-left: -40px;
+}
+/* for new tutorial href */
+.imgnewtutref{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* for new tutorial h4 position */
+.newtuth4{
+    margin-top: 1px;
+}
+/* for new tutorial paragraph */
+.imgnewtutp{
+    font-style: italic;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 11px;
+}
+/* for topics h4 positioning */
+.topicsh4{
+    margin-top: 1px;
+}
+/* for button positioning and sizing */
+button{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}
+/* for the footer positioning */
+footer{
+    margin-top: 50px;
+    margin-left: 55px;
+    text-align: center;
+}
